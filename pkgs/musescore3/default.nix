@@ -33,8 +33,8 @@ mkDerivation rec {
   src = fetchFromGitHub {
     owner = "Jojo-Schmitz"; # owner = "musescore";
     repo = "MuseScore";
-    rev = "25ffd79ae6a05bbae05d8c0c8b6e5e2d6c5397bf"; # rev = "v${version}"; # 3.6.2
-    hash = "sha256-w+Nmw1fF4DSCkzabuXd0Uw0xfNfv2HgZ6TSMds1YIDk="; # sha256 = "sha256-GBGAD/qdOhoNfDzI+O0EiKgeb86GFJxpci35T6tZ+2s=";
+    rev = "97005935693659749b0899e963f713030ce23d8b"; # rev = "v${version}"; # 3.6.2
+    hash = "sha256-ijY9vuyGeSB5CPaMLK9+Zm3JWg3k9kKd+wsozRTc6wk="; # sha256 = "sha256-GBGAD/qdOhoNfDzI+O0EiKgeb86GFJxpci35T6tZ+2s=";
   };
 
   patches = [
