@@ -26,13 +26,13 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "musescore-evolution";
-  version = "0-unstable-2026-02-24";
+  version = "0-unstable-2026-02-25";
 
   src = fetchFromGitHub {
     owner = "Jojo-Schmitz";
     repo = "MuseScore";
-    rev = "1bd32ec056220f41400ce834e2b197c7572ee710";
-    hash = "sha256-0O8s8SOPHQejr6Xru2wHD9c5RrF6dBcICbUrvXvWz28=";
+    rev = "c6627d087aa26832a492ffae3cf49db0aff49a3a";
+    hash = "sha256-rcmBR332HjOm6eWLyHVY1VEuRHJoLafLSDNakVfHeV4=";
   };
 
   patches = [
